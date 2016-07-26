@@ -1,0 +1,87 @@
+---
+layout: default
+tab: Screenshots
+---
+<div id="pic-content"></div>
+<!-- Dialog -->
+<div class="modal fade" tabindex="-1" role="dialog" id="picModal">
+<div class="modal-dialog modal-lg">
+    <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title">Modal title</h4>
+        </div>
+        <div class="modal-body"></div>
+	<div class="pic-description"></div>
+    </div>
+</div>
+</div>
+
+<script type="text/javascript">
+var pics = [
+    { thumbnail: "th_armor_battle.jpg", image: "armor_battle.png", caption: "Battle for armor" },
+    { thumbnail: "th_observing_features.jpg", image: "observing_features.jpg", caption: "Spectator features", description: "During QTV/demo playback, each player is identified along with health, armor and weapons." },
+    { thumbnail: "th_bloom.jpg", image: "bloom.jpg", caption: "Bloom effect" },
+    { thumbnail: "th_powerupshells.jpg", image: "powerupshells.jpg", caption: "Powerup shells effect" },
+    { thumbnail: "th_rich_menus.jpg", image: "rich_menus.png", caption: "Rich mouse-driven menus" },
+    { thumbnail: "th_underwater.jpg", image: "underwater.jpg", caption: "Underwater effects" },
+    { thumbnail: "th_shambler_cutf_bluefog.jpg", image: "shambler_cutf_bluefog.jpg", caption: "Special effects" },
+    { thumbnail: "th_drawflat_fastturb_multiview.jpg", image: "drawflat_fastturb_multiview.jpg", caption: "Solid textures, multiview" },
+    { thumbnail: "th_lightning_sparks.jpg", image: "lightning_sparks.jpg", caption: "Lightning sparks" },
+    { thumbnail: "th_fog_fogsky_grenadetrail_flame.jpg", image: "fog_fogsky_grenadetrail_flame.jpg", caption: "Grenade trail, fog" },
+    { thumbnail: "th_nailtrail_muzzleflash.jpg", image: "nailtrail_muzzleflash.jpg", caption: "Nail trail, muzzle flash" },
+    { thumbnail: "th_nailtrail_plasma.jpg", image: "nailtrail_plasma.jpg", caption: "Plasma nail-trail" },
+    { thumbnail: "th_part_zap.jpg", image: "part_zap.jpg", caption: "Zap particles" },
+    { thumbnail: "th_partteleport_partshotgun_partblood.jpg", image: "partteleport_partshotgun_partblood.jpg", caption: "Teleport effects" },
+    { thumbnail: "th_explosion_rain_shockwave.jpg", image: "explosion_rain_shockwave.jpg", caption: "Explosion shockwave" },
+    { thumbnail: "th_surface_lava.jpg", image: "surface_lava.jpg", caption: "Boiling lava" },
+    { thumbnail: "th_surface_slime.jpg", image: "surface_slime.jpg", caption: "Slime fumes" },
+    { thumbnail: "th_torches_fog_nailsparks.jpg", image: "torches_fog_nailsparks.jpg", caption: "Torches, nail sparks" },
+    { thumbnail: "th_damagestats_bloodpart_motiontrails.jpg", image: "damagestats_bloodpart_motiontrails.jpg", caption: "Damage stats" },
+    { thumbnail: "th_teamplay_hud_features.jpg", image: "teamplay_hud_features.jpg", caption: "Teamplay HUD" }
+];
+
+$(document).ready(function () {
+    var row = null;
+    var index = 0;
+
+    $(pics).each(function (index) {
+        pic = pics[index];
+        if (index % 3 == 0) {
+            $('#pic-content').append(row = $('<div>').attr('class', 'row'));
+        }
+
+        row.append(
+            $('<div>').attr('class', 'col-sm-6 col-md-4').append(
+                $('<div>').attr('class', 'thumbnail').append(
+                    $('<a>').attr('href', '#').attr('data-toggle', 'modal').attr('data-target', '#picModal').attr('data-index', index).append(
+                        $('<img>').attr('src', 'screenshots/' + pic.thumbnail).attr('alt', pic.caption)
+                    )
+                ).append(
+                    $('<div>').attr('class', 'caption').append(
+                        $('<p>').text(pic.caption)
+                    )
+                )
+            )
+        );
+    });
+
+    $('#picModal').on('show.bs.modal', function (event) {
+        var index = $(event.relatedTarget).data('index') * 1;
+        var pic = pics[index]; // Button that triggered the modal
+        var modal = $(this);
+        modal.find('.modal-title').text(pic.caption);
+        modal.find('.modal-body').empty().append(
+            $('<img>').attr('src', 'screenshots/' + pic.image).attr('alt', pic.caption)
+        );
+	modal.find('.pic-description').text(pic.description || '');
+
+        $(this).find('.modal-body').css({
+            width: 'auto', //probably not needed
+            height: 'auto', //probably not needed 
+            'max-height': '100%'
+        });
+    });
+});
+</script>
+
