@@ -76,4 +76,4 @@ You can download HUD graphics [here][hud].
 [skins]: http://gfx.quakeworld.nu/browse/skins/
 [hud]: http://gfx.quakeworld.nu/browse/hud/
 [qrp]: http://qrp.quakeone.com/
-[console-font-formats]: ./font-formats.html
+[console-font-formats]: fonts.md

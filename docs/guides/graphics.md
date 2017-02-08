@@ -86,4 +86,4 @@ FAQ
 - Q5. I have set the gl_part_* variables to 1 but I still get the old particles. WTF?
   - A5. Make sure you've installed ezquake/pak0.pak from the zip file/installer you downloaded from the web. Inside that pak file are some particle textures that are important.
 
-[external-textures]: ./external-textures.md
+[external-textures]: external-textures.md
