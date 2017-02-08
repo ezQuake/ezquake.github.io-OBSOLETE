@@ -3,7 +3,7 @@
 title: ezQuake
 description: > # this means to ignore newlines until "baseurl:"
   ezQuake - the #1 QuakeWorld client.
-baseurl: "/" # the subpath of your site - / for final deployment, /ezquake-source/ otherwise
+baseurl: "" # the subpath of your site
 url: "http://ezquake.github.io/" # the base hostname & protocol for your site
 github_username:  ezquake
 
