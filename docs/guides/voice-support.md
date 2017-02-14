@@ -15,6 +15,7 @@ To receive voice you need the following:
 
 - ezQuake 3.0.2, compiled with SDL 2.0.5
 - Using a sound driver SDL 2.0.5 has recording support for (alsa, directsound, pulseaudio, winmm)
+  - To pick your audio driver, execute `SET SDL_AUDIODRIVER=<driver>` before launching ezquake
 
 Or:
 
@@ -68,12 +69,14 @@ The volume of the incoming voices can be adjusted with the `/s_raw_volume` varia
 Server commands let you control who hears your voice comms, and who , you can choose who your messages are sent to via `/cmd voicetarg` command.
 
 Controlling who can hear you:
+
 - `/cmd voicetarg all` - broadcast voice to all players
 - `/cmd voicetag team` - send voice to team members only (default)
 - `/cmd voicetarg <playerid>` - only send voice to a specific player
 - `/cmd voicetarg nonmuted` - send voice to all, apart from those you've muted
 
 Controlling who you hear:
+
 - `/ignore_voip <userid | name>` - to get someone's userid, use the `/users` command
 - `/unignore_voip <userid | name>` - stop ignoring someone's voip stream
 
