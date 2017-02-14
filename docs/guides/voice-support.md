@@ -11,7 +11,7 @@ ezQuake contains in-game voice support, ported from FTEQW.
 
 ### Requirements
 
-To receive voice you need the following:
+For full voice support you need the following:
 
 - ezQuake 3.0.2, compiled with SDL 2.0.5
 - Using a sound driver SDL 2.0.5 has recording support for (alsa, directsound, pulseaudio, winmm)
@@ -25,7 +25,7 @@ Or:
 
 Also:
 
-- connect to an server which supports voice comms (mvdsv & )
+- connect to an server which supports voice comms (modern mvdsv & FTE servers)
 - NOT connect via Qizmo
 
 To be able to also send voice, set `/cl_voip_send 1`
