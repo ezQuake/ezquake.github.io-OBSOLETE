@@ -1,0 +1,88 @@
+/*
+Default style for QW Network Bar
+Author: Viktor Persson, Arcsin (http://arcsin.se/)
+*/
+
+/* General */
+
+#qwnetwork {
+	border-bottom: 1px solid #222;
+	padding: 4px 5px;
+	background: #444;
+	color: #FFE;
+	font: normal 12px Verdana,sans-serif;
+	outline: 0;
+}
+#qwnet_content {width: 950px; margin: 0 auto;}
+#qwnetwork a {
+	float: left;
+	width: 48px;
+	height: 13px;
+	margin-right: 4px;
+	background-image: url('qwnetwork_icons.gif');
+	background-repeat: no-repeat;
+	outline: 0;
+}
+#qwnetwork .qwnet_separator {float: left; width: 24px;}
+#qwnet_clearer {
+	clear: both;
+	display: block;
+	line-height: 0;
+	font-size: 0;
+}
+
+/* Icons */
+
+#qwnet_nquake {background-position: -49px -14px;}
+.qwnet_current#qwnet_nquake,a#qwnet_nquake:hover {background-position:  0 -14px;}
+
+#qwnet_ezquake {background-position: -49px -28px;}
+.qwnet_current#qwnet_ezquake,a#qwnet_ezquake:hover {background-position: 0 -28px;}
+
+#qwnet_qwdrama {background-position: -49px -42px;}
+.qwnet_current#qwnet_qwdrama,a#qwnet_qwdrama:hover {background-position: 0 -42px;}
+
+#qwnet_qwnu {background-position: -49px -56px;}
+.qwnet_current#qwnet_qwnu,a#qwnet_qwnu:hover {background-position: 0 -56px;}
+
+#qwnet_forums {background-position: -49px -70px;}
+.qwnet_current#qwnet_forums,a#qwnet_forums:hover {background-position: 0 -70px;}
+
+#qwnet_sd {background-position: -49px -84px;}
+.qwnet_current#qwnet_sd,a#qwnet_sd:hover {background-position: 0 -84px;}
+
+#qwnet_eql {background-position: -49px -98px;}
+.qwnet_current#qwnet_eql,a#qwnet_eql:hover {background-position: 0 -98px;}
+
+#qwnet_wiki {background-position: -49px -112px;}
+.qwnet_current#qwnet_wiki,a#qwnet_wiki:hover {background-position: 0 -112px;}
+
+#qwnet_quakeservers {background-position: -49px -126px;}
+.qwnet_current#qwnet_quakeservers,a#qwnet_quakeservers:hover {background-position: 0 -126px;}
+
+#qwnet_qtv {background-position: -49px -140px;}
+.qwnet_current#qwnet_qtv,a#qwnet_qtv:hover {background-position: 0 -140px;}
+
+#qwnet_schedule {background-position: -49px -154px;}
+.qwnet_current#qwnet_schedule,a#qwnet_schedule:hover {background-position: 0 -154px;}
+
+#qwnet_goldrush {background-position: -49px -168px;}
+.qwnet_current#qwnet_goldrush,a#qwnet_goldrush:hover {background-position: 0 -168px;}
+
+#qwnet_chtv {background-position: -49px -182px;}
+.qwnet_current#qwnet_chtv,a#qwnet_chtv:hover {background-position: 0 -182px;}
+
+#qwnet_gfx {background-position: -49px -196px;}
+.qwnet_current#qwnet_gfx,a#qwnet_gfx:hover {background-position: 0 -196px;}
+
+#qwnet_videos {background-position: -49px -210px;}
+.qwnet_current#qwnet_videos,a#qwnet_videos:hover {background-position: 0 -210px;}
+
+#qwnet_stats {background-position: -49px -224px;}
+.qwnet_current#qwnet_stats,a#qwnet_stats:hover {background-position: 0 -224px;}
+
+#qwnet_fusion {background-position: -49px -238px;}
+.qwnet_current#qwnet_fusion,a#qwnet_fusion:hover {background-position: 0 -238px;}
+
+#qwnet_ownage {background-position: -49px -252px;}
+.qwnet_current#qwnet_ownage,a#qwnet_ownage:hover {background-position: 0 -252px;}
