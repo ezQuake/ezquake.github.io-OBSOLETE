@@ -10,6 +10,8 @@ tab: Manual
 {% include variables/crosshairalpha.html %}
 {% include variables/crosshaircolor.html %}
 {% include variables/crosshairimage.html %}
+{% include variables/crosshairscale.html %}
+{% include variables/crosshairscalemethod.html %}
 {% include variables/crosshairsize.html %}
 </div><h4><a id="fps-and-eyecandy-settings" class="anchor" href="#fps-and-eyecandy-settings" aria-hidden="true"><span class="octicon octicon-link"></span></a>FPS and EyeCandy Settings</h4>
 <div class="doc-group">{% include variables/cl_backpackfilter.html %}
@@ -68,6 +70,7 @@ tab: Manual
 {% include variables/r_lerpframes.html %}
 {% include variables/r_lerpmuzzlehack.html %}
 {% include variables/r_lgbloodcolor.html %}
+{% include variables/r_lightdecayrate.html %}
 {% include variables/r_lightflicker.html %}
 {% include variables/r_powerupglow.html %}
 {% include variables/r_railtrail.html %}
@@ -101,6 +104,14 @@ tab: Manual
 {% include variables/gl_clear.html %}
 {% include variables/gl_clearcolor.html %}
 {% include variables/gl_cull.html %}
+{% include variables/gl_custom_grenade_color.html %}
+{% include variables/gl_custom_grenade_fullbright.html %}
+{% include variables/gl_custom_lg_color.html %}
+{% include variables/gl_custom_lg_fullbright.html %}
+{% include variables/gl_custom_rocket_color.html %}
+{% include variables/gl_custom_rocket_fullbright.html %}
+{% include variables/gl_custom_spike_color.html %}
+{% include variables/gl_custom_spike_fullbright.html %}
 {% include variables/gl_cutf_tesla_effect.html %}
 {% include variables/gl_detpacklights.html %}
 {% include variables/gl_extratrails.html %}
@@ -167,7 +178,7 @@ tab: Manual
 {% include variables/gl_particle_spikes_type.html %}
 {% include variables/gl_particle_style.html %}
 {% include variables/gl_particle_trail_detail.html %}
-{% include variables/gl_particle_trail_lenght.html %}
+{% include variables/gl_particle_trail_length.html %}
 {% include variables/gl_particle_trail_time.html %}
 {% include variables/gl_particle_trail_type.html %}
 {% include variables/gl_particle_trail_width.html %}
@@ -213,6 +224,7 @@ tab: Manual
 {% include variables/cl_shownet.html %}
 {% include variables/cl_verify_qwprotocol.html %}
 {% include variables/cl_window_caption.html %}
+{% include variables/demo_jump_rewind.html %}
 {% include variables/demo_playlist_loop.html %}
 {% include variables/demo_playlist_track_name.html %}
 {% include variables/gl_contrast.html %}
@@ -264,7 +276,6 @@ tab: Manual
 {% include variables/scr_qtvbuffer.html %}
 {% include variables/scr_qtvbuffer_x.html %}
 {% include variables/scr_qtvbuffer_y.html %}
-{% include variables/scr_scoreboard_drawfps.html %}
 {% include variables/scr_showcrosshair.html %}
 {% include variables/scr_shownick_frame_color.html %}
 {% include variables/scr_shownick_name_width.html %}
@@ -311,6 +322,7 @@ tab: Manual
 {% include variables/showpause.html %}
 {% include variables/showram.html %}
 {% include variables/showturtle.html %}
+{% include variables/sv_showpackets.html %}
 </div><h4><a id="screenshot-settings" class="anchor" href="#screenshot-settings" aria-hidden="true"><span class="octicon octicon-link"></span></a>Screenshot Settings</h4>
 <div class="doc-group">{% include variables/image_jpeg_quality_level.html %}
 {% include variables/image_png_compression_level.html %}
@@ -392,6 +404,7 @@ tab: Manual
 {% include variables/vid_fullscreen_mode.html %}
 {% include variables/vid_height.html %}
 {% include variables/vid_hwgammacontrol.html %}
+{% include variables/vid_minimize_on_focus_loss.html %}
 {% include variables/vid_mode.html %}
 {% include variables/vid_nopageflip.html %}
 {% include variables/vid_resetonswitch.html %}
