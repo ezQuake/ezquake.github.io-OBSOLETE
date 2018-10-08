@@ -45,7 +45,19 @@ tab: Manual
 
 * [Upgrading from 2.2](docs/guides/upgrade-from-2.2.md)
 
-##### Internal help/manual (very old)
+### Reference (console variables)
+
+* [Demo playback](docs/demos.html)
+* [Graphics](docs/graphics.html)
+* [Heads-up display](docs/hud.html)
+* [Controls](docs/input.html)
+* [Multiplayer](docs/multiplayer.html)
+* [Audio](docs/sound.html)
+* [Teamplay settings](docs/teamplay.html)
+* [Miscellaneous](docs/miscellaneous.html)
+* [Server settings](docs/server.html)
+
+### Internal help/manual (very old)
 
 * [Command line](docs/manual/cmdline.html)
 * [Commands and variables](docs/manual/commands.html)
@@ -74,17 +86,5 @@ tab: Manual
 * [Video settings](docs/manual/video.html)
 * [What is QuakeWorld?](docs/manual/what_qw.html)
 * [Where is the Quake World?](docs/manual/links.html)
-
-### Reference (console variables)
-
-* [Demo playback](docs/demos.html)
-* [Graphics](docs/graphics.html)
-* [Heads-up display](docs/hud.html)
-* [Controls](docs/input.html)
-* [Multiplayer](docs/multiplayer.html)
-* [Audio](docs/sound.html)
-* [Teamplay settings](docs/teamplay.html)
-* [Miscellaneous](docs/miscellaneous.html)
-* [Server settings](docs/server.html)
 
  [sf-docs]: http://ezquake.sourceforge.net/docs/
