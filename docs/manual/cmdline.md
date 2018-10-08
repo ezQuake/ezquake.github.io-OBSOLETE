@@ -1,7 +1,7 @@
-# ezQuake Manual - Command line
-(last edited Tue 07-Oct-2003)
+## ezQuake Manual - Command line
+(automatic conversion from internal help - last edited Tue 07-Oct-2003)
 
-## Command line
+#### Command line
 
 
 _For command line configuration use a program called ezstart.exe_. QW can of course be started by simply doubleclicking on the executable, but there are a few command line parameters which should be used to make QW run even better and which can sometimes solve problems as well. The easiest way is to create a shortcut or even better a batch (.bat) file for starting QW. The most important command line parameters are described below:
@@ -14,7 +14,7 @@ _For command line configuration use a program called ezstart.exe_. QW can of cou
 - **-window** When you put this in front of the -width and -height command it might solve some problems you might have with certain video modes. QW does not run in a window but even lower resolutions will be a bit slower than usually.
 - **-dibonly** This command often solves problems that occur with software QW in combination with modern GeForce graphic cards, like screen turning black when quitting QW or the colors on the desktop look wrong.
 
-## So your QW starting command line could look something like this then:
+#### So your QW starting command line could look something like this then:
 
 ezquake-gl.exe -noscripts -ruleset smackdown -heapsize 81920 -zone 8192 -sndbits 16 -sndspeed 48000 -dinput -m_smooth -bpp 16 -width 640 -conwidth 640 +set vid_displayfrequency 85 +set s_khz 44
 

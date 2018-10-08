@@ -1,12 +1,12 @@
-# ezQuake Manual - introduction
-(last edited Tue 07-Oct-2003)
+## ezQuake Manual - introduction
+(automatic conversion from internal help - last edited Tue 07-Oct-2003)
 
-## WELCOME
+#### WELCOME
 
-## What is this guide about?
+#### What is this guide about?
 
 This guide is about QuakeWorld. QuakeWorld is an improved version of the original Quake developed by id Software in 1996. Quake/QuakeWorld looks back upon 5 years of development and evolution. It has a hardcore community of dedicated players, most of which are playing it for several years now. This makes it hard to get into it for new players. Nevertheless many people consider QuakeWorld to be the best multiplayer game today. Despite its old look it offers much depth and lots of fun. Thats why it is still being played today and why it's well worth to give it a try. However due to its age and the complexety on all levels it is very hard to get into and this is where this guide steps in. The guide will provide you with everything you need to know about QuakeWorld on different levels.
-## Whom does it address?
+#### Whom does it address?
 
 The QuakeWorld for Freshies guide adresses four groups of people:
 
