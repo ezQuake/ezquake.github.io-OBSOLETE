@@ -1,9 +1,14 @@
-## ezQuake Manual - Quake history
+---
+layout: default
+tab: Manual
+---
+
+# ezQuake Manual - Quake history
 (automatic conversion from internal help - last edited Thu 07-Oct-2004)
 
-#### Quake history
+## Quake history
 
-#### Links
+## Links
 
 - ** [TheQuakeWorld Chronicles](http://www.planetquake.com/features/articles/classicpq/qw1.shtml) ** (By Stephen "Blue" Heaslip, April 1997) Early QW client history.
 - ** [Twenty Minutes Later: The History of ClanRing](http://web.archive.org/web/19980126030535/http://www.mpog.com/clanring/history/) ** (By Jeremy "Lindril" Degroat, September 1997) An historical perspective concerning the first clans of Quake in North America.

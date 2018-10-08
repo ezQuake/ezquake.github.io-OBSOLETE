@@ -1,7 +1,12 @@
-## ezQuake Manual - Ping and lag
+---
+layout: default
+tab: Manual
+---
+
+# ezQuake Manual - Ping and lag
 (automatic conversion from internal help - last edited Thu 07-Oct-2004)
 
-#### Ping and lag
+## Ping and lag
 
 Ping and lag are the archenemies of each online player because they affect gameplay more than anything else. Between the QW client and server information is exchanged by dividing this information into small packets which are then send to each other over the internet. On their way they have to pass a series of hops until they reach their final destination. The time in milliseconds the packets need to get from their source to their destination is called "ping". The lower your ping is the better. How low or high your ping is depends on what kind of connection you have (cable, DSL, ISDN, modem, etc), how many hops there are in between your client and the server and how good the equipment of your internet service provider and the hops is.
 
@@ -12,7 +17,7 @@ Another problem affecting every Quake player is "packetloss". If for some reason
 QW displays both ping and packetloss in the scoreboard. If you type showscores (by default it is bound to the tab key) you will see each players ping in milliseconds as well as their packetloss in percent. There is another command which lets you examine packetloss further.
 
 If you type r_netgraph 1 in the console a graph will appear in the lower left corner of the screen. It can be turned off by typing r_netgraph 0. When turned on a series of colored bars will start to move from left to right. These bars represent the packets currently being recieved and what happens to them. The height of the white line shows the latency of recieved packets, that means the higher it is the higher your ping is. The red lines represent lost packets. The more red lines the more packets were lost in between. You can't do anything about them but look for a better server where you have less packetloss. The yellow lines also respresent lost packets but these were intentionally dropped by the client and this can be tweaked. Blue lines are very bad, they mean your provider suck. Go look for another one.
-#### Tweaking your lag
+## Tweaking your lag
 
 You can tweak your lag a bit by using the_rate_,_pushlatency_and_cl_maxfps_commands
 

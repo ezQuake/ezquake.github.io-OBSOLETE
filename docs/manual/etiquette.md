@@ -1,7 +1,12 @@
-## ezQuake Manual - QuakeWorld etiquette
+---
+layout: default
+tab: Manual
+---
+
+# ezQuake Manual - QuakeWorld etiquette
 (automatic conversion from internal help - last edited Tue 07-Oct-2003)
 
-#### QuakeWorld etiquette
+## QuakeWorld etiquette
 
 
 QWers play their game for one single reason: fun. If someone takes away the fun by disturbing them with improper behaviour on a server they are sure to react very annoyed and angry. Also most of the QWers are playing this game for several years now and are also older than most other online players. Thus our community is more mature than those of most other popular online games and expects the same maturity from new players. Over the years some rules of correct and polite behaviour have developed among the QW community which everyone should try to follow if he is interested in having people to play with.

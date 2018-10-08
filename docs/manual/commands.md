@@ -1,12 +1,17 @@
-## ezQuake Manual - Commands and variables
+---
+layout: default
+tab: Manual
+---
+
+# ezQuake Manual - Commands and variables
 (automatic conversion from internal help - last edited Tue 07-Oct-2003)
 
-#### Commands and variables
+## Commands and variables
 
-#### The QW console
+## The QW console
 
 You can change nearly every setting of QW from the game within by typing it in the console. You can either reach the console through the menues (press escape -> setup -> keybindings -> go to console) or more easily by pressing the tilde (~) key (QW always switches to american/english keyboard layout where the tilde key is located on the top left below the escape key).
-#### General commands and variables
+## General commands and variables
 
 Every console command is simply entered at the console (or in your cfg file) ,often followed by a value. The often used "bind" command requires the key which is to be bound followed by the action or alias to be bound to that key. For example if you type BIND W "+FORWARD" you will walk or run forward as long as you keep the w key pressed. The meaning of the "+" as well as other commands like "alias" will be explained further below in the advanced section.
 
@@ -37,7 +42,7 @@ bind mouse2 "+jump"
 
 
 This is an example how two other important commands can be bound to the mouse buttons. It is completely up to you what you bind where but it is very common to bind the left mousebutton to attack and the right mousebutton to jump. The middle mousebutton is often used for a script.
-#### Weapon impulses
+## Weapon impulses
 
 In Quake weapons are selected by impulses. For example typing impulse 2 would select the Super Shotgun. Each weapon impulse is assigned to a single weapon and the number of the impulse if by default bound to the corresponding key on the keyboard (not on the numpad!). Weapon impulses become important when creating weapon selecting scripts. Here are Quake's weapon impulses:
 
@@ -74,7 +79,7 @@ impulse 1 = Axe impulse 2 = Shotgun impulse 3 = Super Shotgun impulse 4 = Nailgu
 - **viewsize [10-110]** Sets how much of the action is displayed on the screen. The highest value will hide some vital information like health, armor, etc. while lower values mean more frames per second.
 - **bind tab "+showscores"** The showscores command will display the fragcount and names of all players connected. It also shows their ping, packetloss and time in minutes they are connected to the server.
 
-#### Advanced commands
+## Advanced commands
 
 The following commands are not absolutely necessary but they are useful when you want to play QW seriously because they can help you to improve your game. Since they are not documented they are also not easy to find and the average user would not even think that they exist.
 
@@ -86,7 +91,7 @@ The following commands are not absolutely necessary but they are useful when you
 - **cl_bob 0** This turns off the up and down movement of your weapon (if it is displayed).
 - **cl_forwardspeed 3096** **cl_sidespeed 3096** **cl_upspeed 3096** **cl_backspeed 3096** Setting the speed of the various types of movement to higher values than the default ones (200 for forward and backward, 320 for sidespeed) is not of much use because the maximum values are determined by the server. But well, you never know :-)
 
-#### Building advanced cfgs/scipts/aliases
+## Building advanced cfgs/scipts/aliases
 
 QW has a powerful script language that allows you to built many usefull and also not so useful scripts. In this section we will present some of the most common scripts and explain how they work. First you need to know the how QW's script language works:
 

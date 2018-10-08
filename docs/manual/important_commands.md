@@ -1,7 +1,12 @@
-## ezQuake Manual - Important commands
+---
+layout: default
+tab: Manual
+---
+
+# ezQuake Manual - Important commands
 (automatic conversion from internal help - last edited Sat 16-Oct-2004)
 
-#### Important commands
+## Important commands
 
 
 The most important and commonly used commands which are used while playing QW will be explained below. All have to be entered into the console which can be brought up by the tilde (~) key:
@@ -43,7 +48,7 @@ sensitivity 5.2
 
 - **fov [x]** This command determines your field of view. Allowed values range from 10 to 170. Much more than 130 and less than 90 are not very useful though.
 
-#### Kombat Teams/KTPro commands
+## Kombat Teams/KTPro commands
 
 Most QW servers run a mod called either Kombat Teams or KTPro (KTPro is a newer and improved version of the older Kombat Teams). These are modifications of the QW server designed specifically to make competitive play more easy (no changes to the general gameplay have been made though). The most important commands on these servers are explained below:
 

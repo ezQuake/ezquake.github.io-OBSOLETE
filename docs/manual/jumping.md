@@ -1,7 +1,12 @@
-## ezQuake Manual - QuakeWorld jumping
+---
+layout: default
+tab: Manual
+---
+
+# ezQuake Manual - QuakeWorld jumping
 (automatic conversion from internal help - last edited Sat 16-Oct-2004)
 
-#### QuakeWorld jumping
+## QuakeWorld jumping
 
 
 ```
@@ -9,7 +14,7 @@
 This guide was written by Cinclant and originally posted [here](http://web.archive.org/web/20030510194625/http://www.challenge-nz.com/features/guide/) . Since it is easily the best guide to QW jumping techniques around, it became part of this QW guide rather than writing something inferior from scratch. Thank you for the excellent guide you wrote Cinclant! The third part of this guide explains the most advanced technique of QW jumping. Cinclant calls it speed jumping but nowadays it is known far and wide as bunnyhopping.
 ```
 
-#### 1. Strafe Jumping
+## 1. Strafe Jumping
 
 Have you ever played a game of QW, and seen people jumping all over the place? Seen people jumping over huge areas and curling around corners? Seen people bouncing down hallways at ridiculous speeds? About now, if you can't at least do the entry level skill jumps, you won't get far in QW. DM games revolve around speed and types of jumping enables speed and agility, a way to escape or catch your opponent. I will link demos for each type of jump I try to explain, hopefully they will help demonstrate how to master it, and some will just be showing off what you can do with these new tricks.
 
@@ -22,7 +27,7 @@ All speed and distance is gained through the strafe keys while jumping. In QW, s
 Another type of strafe-jumping is a basic type of bunny hopping. By strafing a direction, holding forward and jumping you can gain immediate speed from standing still, you can then repeat to hop along at a slow-medium pace. Its pointless when you know how to accel jump as it is a LOT slower. Strafe Jump Bunny-Hopping A handy strafe jump on DM2 is the one across the lava going down to the lower YA. You jump turning RIGHT and strafing RIGHT.
  [DM2 Lava Jump](demos/strafe-4.mvd) 
 Some very handy jumps on DM3 are the ones around the SNG area. Standard strafe jumping, sometimes made easier if you let go of forward while in mid-air to allow more precise control. Good for confusing people chasing you and cutting corners when you're in a hurry.
- [DM3 SNG Jumps](demos/strafe-4.mvd) #### 2. Acceleration Jumping
+ [DM3 SNG Jumps](demos/strafe-4.mvd) ## 2. Acceleration Jumping
 
 A lot harder to do and master, acceleration jumping is the next level up in skill. Accel jumping lets the player jump LARGE distance with a VERY small run-up. A perfect example is from the top of DM4 over to the steps ledge on the other side. To show how far extra an Accel jump takes you, the second demo shows an attempt with a normal strafe jump, with a big runup.
  [DM4 Upper Ledge Jump](demos/accel-1.mvd)  [DM4 Upper Ledge Failure](demos/accel-2.mvd) 
@@ -37,7 +42,7 @@ The above jump was a curling Accel jump, this next one is a reverse curly one :D
 Slightly easier to explain, but still quite hard to do, is the RL to QUAD jump on DM2. Similar to the RA jump, except you must use an Accel jump to have the distance to reach the QUAD. This means strafing and looking LEFT, just before you strafe jump to the RIGHT.
  [DM2 RL to QUAD](demos/accel-5.mvd) 
 You can do some pretty cool bunnyhopping with Accel jumping. Start off with a normal Accel jump, then when you land, strafe jump the other way. What I mean is, if you used RIGHT strafe to strafe jump, then when you land, strafe jump using your LEFT strafe. This will maintain your speed from the Accel jump. If you lose speed, simply Accel jump again. You can out-run most players using this technique. Remember its easiest to Accel jump around a corner, you gain a lot of speed, and its easier to take off cleanly. I had a bit of trouble making myself do Accel bunnyhops without moving into a speed jump, forgive me :) I'll re-record this later on it should be a lot better.
- [Accel Bunnyhopping](demos/accel-6.mvd) #### 3. Speed Jumping
+ [Accel Bunnyhopping](demos/accel-6.mvd) ## 3. Speed Jumping
 
 Speed jumping is a very skilled way of jumping. Not many people know how to use this type of jumping at all. It's also quite hard to learn, especially if you don't know how to do any of the jumps mentioned above. Speed jumping is a way of jumping that either lets you maintain your speed gathered from something else (ie a rocket jump) or pickup speed yourself and hoon along at an incredible rate. Speed jumping is unlike other jumping, because you do not use your forward key at all. When speed jumping, you only strafe left or right, and jump. Standing start speed jump. In order to do this its easiest to start with an Accel jump, so you'll need to know how to do that. Start off with an Accel jump, and before you land, let go of forward and only hold a strafe direction.
 

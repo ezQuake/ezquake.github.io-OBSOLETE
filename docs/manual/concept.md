@@ -1,7 +1,12 @@
-## ezQuake Manual - The concept of the game
+---
+layout: default
+tab: Manual
+---
+
+# ezQuake Manual - The concept of the game
 (automatic conversion from internal help - last edited Sat 16-Oct-2004)
 
-#### The concept of the game
+## The concept of the game
 
 
 Quake is a game which can be classified as a shooter. In this shooter you can see everything from the first person point of view, that is as through the eyes of your player character, or from the third point of view (so you always see Ranger's back). That naturally makes the environment in which you play three dimensional. Most of the time you are moving through some sort of maze that represents an ancient castle, a tomb, sewers or simpley a building. That depends on the setting of the respective game (QW has a somewhat "medieval" setting). Along your way you encounter a lot of enemies which you dispatch with the weapons you found previously. Besides the weapons there are also other items to pick up like health, ammunition or powerups which help you on your quest.

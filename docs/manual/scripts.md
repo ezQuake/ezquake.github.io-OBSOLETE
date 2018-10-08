@@ -1,16 +1,21 @@
-## ezQuake Manual - Scripts
+---
+layout: default
+tab: Manual
+---
+
+# ezQuake Manual - Scripts
 (automatic conversion from internal help - last edited Sat 16-Oct-2004)
 
-#### Scripts
+## Scripts
 
 
 _Note:_Since some commands tend to work a bit different depending on which QW client you use, the scripting system works a bit different as well. It is mentioned above the script examples as to which client each script is adapted for. Else it works the same way in all clients.
-#### Weapon scripts
+## Weapon scripts
 
 If you want to make your life as a QW player easier, you can start by using a weapon script. What a weapon script does is that it selects the wanted weapon, and if it doesn't exist, it chooses the best weapon available. When you've fired the weapon it switches to the Shotgun or the Axe (cannot be dropped in backpack) to ensure that the enemy does not get a valuable weapon if he manages to kill you.
 
 You can write all sorts of scripts, the only thing holding you back is your own imagination!
-#### Boomstick/Axe script
+## Boomstick/Axe script
 
 What about not giving away the powerful Rocket Launcher? When you get fragged by another player he will get the weapon which you had selected last. If you are clever you would manually change to a weaker weapon before he kills you but you can make a script which does that for you in the heat of the battle.
 
@@ -22,7 +27,7 @@ alias +rl "impulse 6;+attack" alias -rl "-attack;impulse 1" bind mouse1 "+rl"
 
 This could also be put into a single script without the + and - but in this way it is more elegant. What it actually does is to select the rocket launcher fire a shot and change back to the shotgun. It is quite unlikely that the other player frags you during the short time you actually carry the rocket launcher. It will also be impossible to get your rocket launcher by a surprise shot that kills you. Since everybody already starts with the shotgun and the axe enemies do not benefit from your backpacks, they only get the ammo.
 
-#### Quick Grenade
+## Quick Grenade
 
 ```
 
@@ -31,7 +36,7 @@ alias +gl "impulse 5;+attack" alias -gl "-attack;impulse1"
 
 
 The quick grenade script is probably the most abundant weapon script. It is used to fire a single grenade and is usually bound to another key but the mousebuttons because these are used for other bindings. Again the script will change to the shotgun after firing the grenade launcher once.
-#### Best weapon
+## Best weapon
 
 People often bind their left button to fire the best non-explosive weapon they have, the right mousebutton to fire the rocket launcher and the middle button to fire grenades.
 
@@ -42,7 +47,7 @@ alias +best "impulse 8 5 3 2 4 1;+attack" alias -best "-attack;impulse 1" bind m
 
 
 This script selects the best non-explosive weapon you currently have, in the following priority order: Shaft, Super Nailgun, Super Shotgun, Shotgun, Nailgun, Axe. It excludes the Rocket and Grenade Launcher because they are used through the other scripts mentioned above. This also has the advantage that you cannot kill yourself when you have the Quad because you can't hurt yourself with the weapons in it and again it includes a boomstick script. If you do not have any of the weapons or any ammo left you will fire with the Axe, because in that case it is the last weapon selected.
-#### Rocket jump scripts
+## Rocket jump scripts
 
 
 _Simple rocket jump_
@@ -54,7 +59,7 @@ alias rjump "cl_pitchspeed 32767;impulse 7;+lookdown;+jump;+attack;wait;-attack;
 
 
 This script will execute a simple rocket jump high into the air. What it does it to change the speed at which you look up and down to a very high value. Then it selects the rocketlauncher, looks down, jumps and attacks at the same time. After that the view will be returned to the center and return the pitchspeed to a normal value. All this happens so fast that you won't notice anything but the sound of jumping, firing the rocket launcher and yourself flying through the level. So it actually does what you would do manually only much faster and more precise.
-#### Forward rocket jump
+## Forward rocket jump
 
 ```
 
@@ -63,7 +68,7 @@ alias fwrj "impulse 7;-forward;rotate 180;+jump;+attack;wait;-attack;-jump;rotat
 
 
 This script does basically the same but in this case it's a so called "forward rocket jump". This is a flat rocket jump that rather aims for distance than for height. Forward rocket jumps became quite common lately because you can pick up speed for bunnyhopping with them and use them to move around certain maps much faster.
-#### Misc. scripts
+## Misc. scripts
 
 _Show info_
 

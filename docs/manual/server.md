@@ -1,16 +1,21 @@
-## ezQuake Manual - Server manual
+---
+layout: default
+tab: Manual
+---
+
+# ezQuake Manual - Server manual
 (automatic conversion from internal help - last edited Sat 16-Oct-2004)
 
-#### Server manual
+## Server manual
 
-#### Setting up a server
+## Setting up a server
 
 To play QW you always have to connect to a server. ezQuake has an in-built server that allows you to play e.g. the single player game. To start deathmatch for example on Claustrophobopolis, type /map dm2. This will start your localhost server (on port 27500) running map dm2. After that, if your IP is, say, 213.213.213.213, your friends can challenge you by entering /connect 213.213.213.213 in their clients.
 
 If you want to run custom maps, you'll have to copy this maps to ../qw/maps/ or ../id1/maps/ and the server will find them if needed. Make sure that you use common ones, otherwise you have to allow the download to clients. There is a couple of good custom maps you'll need on your server, depending on the gametype you want to host. Most common on the servers are: death32c and base32b (maps for up to 32 players), aerowalk, dm7, warfare3, hop3 (a bunny hop map) and some map collections like cmt, ukool, efdm, skis, exdm, dapak and ukpak, ztndm (with the incredible ztndm3). Which one is used for what gametype, you'll find out by yourself by playing online :-)
 
 QW gives players the possibility to use skins. When enabled, players can download needed skins from the server. You can take some skin collections from here and copy to ../qw/skins/, but most online players won't see them because they use their own enemy and team skin.
-#### Modifications
+## Modifications
 
 If you want to set up a server, you'll have to decide which modification you use. Without any modification, it only makes sense to host a classic deathmatch game. If you need a good alround config for deathmatches, you can download this one and modify it in the way you want. Rename it to server.cfg and copy it to ../qw/ and they will be your standard config if you load the server without any modification.
 
@@ -23,14 +28,14 @@ Another very popular modification is [capture the flag](http://www.threewave.com
 The modifications rocketarena and clanarena are round based games. Every player is provided with all weapons and a amount of ammo, health and armor. A round of a duel in rocketarena or a round of a teamgame in clanarena is over, if one side is hunted to death. The player or the clan who wins the most rounds is victorious.
 
 Modifications needs to be installed in a separate directory in the quake root dir (e.g. ../modname/), they are loaded with the "gamedir" command. Sometimes it's recommended that also clients have installed the mods on their machine. You should have a look in the manuals for more informations. There are some other popular modifications for QW: [holywars](http://www.planetquake.com/holywars/) , [painkeep](http://www.teamevolve.com/products/painkeep/) and [headhunters](http://www.planetquake.com/headhunters/) . Servers are rare, maybe you want to set up a server for this mods :-)
-#### Controlling
+## Controlling
 
 There is the possibility to remotely control your QW server from another computer. After starting the QW client, enter the_rcon_password_and_rcon_address_of the server you want to control. Now you can control your server by typing_rcon_followed by console commands or variables. There are some tools which use this or similar techniques to control a server remotely, but don't need the graphics of the QW client. I recommend [Watcher](http://blip.nevada.net.nz/watcher/) 
 
 If you want to see who is on your server, use_status_. The server will print out a table with informations on connected players, sorted by a key called userid. If you want, for example, kick a user, get the userid and write_kick [userid]_and the player will be disconnected. QW also provides a method to permanentally ban users or ip addresses.
 
 To change a modification on a running server you have to use the_gamedir_command. Then manually execute the server.cfg and load a map. But be warned: some mods won't work if you change them on thy fly. The better method is to quit the server and restart with the new mod.
-#### Console variables and commands
+## Console variables and commands
 
 The following list give you a short view over the most importants console variables and console commands. In most cases you don't need them all and some aren't useful in a config file.
 
@@ -90,7 +95,7 @@ Here you can control how the server reacts if a client need a file from the serv
 - **status [userid]** **kick [userid]** This gives you the possibility to get information on players and kick them from the server if necessary. User are listed in a table sorted by a key called userid.
 - **alias** **exec** **quit** **say** These commands works like in the client. Define aliases, execute configs, send messages to connected clients or quit the server.
 
-#### Command line parameters
+## Command line parameters
 
 The here listed parameters could be used from the commandline. You can't alter them if the server is started. Also consolevariables from above can be set in the commandoline, they need + as prefix. All console variables you define over the commandline you can overwrite with the console or with a config.
 

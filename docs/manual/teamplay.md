@@ -1,7 +1,12 @@
-## ezQuake Manual - Teamplay manual
+---
+layout: default
+tab: Manual
+---
+
+# ezQuake Manual - Teamplay manual
 (automatic conversion from internal help - last edited Tue 07-Oct-2003)
 
-#### Teamplay manual
+## Teamplay manual
 
 
 ```
@@ -9,13 +14,13 @@
 This guide was written by bunny and originally posted [here](http://www.quake.ie/comments.asp?item=1524) . It explains the most basic parts of QW teamplay concentrating on the map dm3.
 ```
 
-#### Introduction
+## Introduction
 
 QW teamplay is very fast and old fashioned (no fancy teamoverlays). You have to think quickly, react quickly and situations can change quite suddenly. One player can hold an area and a team (of 4) can lock down an entire map.
-#### Spawning
+## Spawning
 
 As a player you spawn almost instantly after you die, you have 100 health and you can be killed straight away by one shot from a Rocket Launcher (RL) or a Grenade Launcher (GL). When a game starts, spawning players often telefrag each other because on some QW maps there are less spawn points than there are total players. Everything is there when you first spawn, including Quad, Pent and Eyes.
-#### Respawn times
+## Respawn times
 
 - _Armor_- 20 seconds.
 - _Health_- 20 seconds.
@@ -26,10 +31,10 @@ As a player you spawn almost instantly after you die, you have 100 health and yo
 - _Ring of Shadows magic_- Same as Pent.
 - _Megahealth_- 20 seconds after it has run out.
 
-#### Starts
+## Starts
 
 Starts can be learned for each map. For example Yellow Armor (YA) spawn on DM3 should grab the YA, go through teleport, jump out and land on the Pent. He should encounter either a teammate or enemy jumping from the Lifts spawn for the Pent aswell. Getting a good start can win you the game. The best way to prepare a start is by figuring out the best route for each spawn and by anticipating enemy spawns. Your team should be prepared if the enemy gets the 4 best spawns (fullstart).
-#### Getting control
+## Getting control
 
 Your team must get RLs or deny them to the enemy, thats the main thing. Once a team member gets an RL he must get to armor.
 
@@ -41,7 +46,7 @@ Once he has armor he can:
 
 
 Unlike Quake 3, in QW one guy with an RL can hold an entire area. For instance, one of your teammates can hold Red Armor (RA) on DM3 with an RL quite easily - on his own. If he positions himself just right he can watch all the entrances. Health and ammo are available nearby. He can supply the team with that RA, he is denying it the enemy, he can get to Quad in about 3 or 4 seconds, he can hold packs for teammates. It's an important position. Once he has RA, the team can concentrate on taking the other parts of the map, once your entire team has RL's (or Lightning Guns) they should be able to take control of the map once they all move into the optimum positions.
-#### Set tactics
+## Set tactics
 
 There are generally set tactics for holding/controlling a map. The most played teamplay maps in QW are DM3, DM2 and E1M2 (aka The Big Three - TB3). Denying armor to the enemy was really perfected by Clan 9 when they destroyed the American clan Deathrow. Deathrow thought the most important areas on the maps were those areas which contained the best weapons. However by constant boomstick charging and gaining control of the armor areas of the maps, Clan 9 were able to deny all armor to the Americans who had little protection and lost their weapons in packs to the enemy.
 
@@ -50,7 +55,7 @@ On [DM3](dm3.md) and [E1M2](e1m2.md) the RL area is not of strategic importance,
  [DM2](dm2.md) is slightly different. Although tactics vary alot on this map, good teams will often secure the lower YA/tele first, thus blocking off High RL/GL/Mega/Quad which enemy can only get to by rocketjumping. DM2 is small enough to attempt a complete lockdown of the map, leaving only one small area which is not covered (Bigroom - which contains 2 YA's).
 
 Tactics are up to the skill of the team. Make them too complicated or advanced and the guys on your team won't be able to handle it. Make them too simplified and they may not be enough to beat the enemy team.
-#### General rules
+## General rules
 
 Here are the basic rules of teamplaying:
 
