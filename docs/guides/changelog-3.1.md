@@ -1,3 +1,10 @@
+---
+layout: default
+tab: Manual
+---
+
+## Changes in 3.1
+
 ### Main features from 3.0.1
 - Internal server updated to mvdsv 0.32 (can run KTX again)
 - Support for large map formats (BSP29a and BSP2) added
