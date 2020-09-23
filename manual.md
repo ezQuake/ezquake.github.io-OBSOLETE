@@ -37,10 +37,9 @@ tab: Manual
 
 ### Changelogs
 
-* [Version 3.2](docs/guides/changelog-3.2.md)
+* [Version 3.2](docs/guides/changelog-3.2.md) ([3.2.2](docs/guides/changelog-3.2.2.md))
 * [Version 3.1](docs/guides/changelog-3.1.md)
-* [Version 3.0.1](docs/guides/changelog-3.0.1.md)
-* [Version 3.0](docs/guides/changelog-3.0.md)
+* [Version 3.0](docs/guides/changelog-3.0.md) ([3.0.1](docs/guides/changelog-3.0.1.md))
 
 ##### Guides
 
