@@ -11,3 +11,7 @@ github_username:  ezquake
 markdown: kramdown
 highlighter: rouge
 
+# Handling/Reading
+exclude:
+  - Gemfile
+  - Gemfile.lock
