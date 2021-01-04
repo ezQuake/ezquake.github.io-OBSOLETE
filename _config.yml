@@ -13,5 +13,6 @@ highlighter: rouge
 
 # Handling/Reading
 exclude:
+  - .idea
   - Gemfile
   - Gemfile.lock
